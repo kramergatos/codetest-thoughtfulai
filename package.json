@@ -1,0 +1,19 @@
+{
+  "name": "codetest-thoughtfulai",
+  "description": "Code test for Thoughtful AI",
+  "author": "Joe Kramer <kramergatos@gmail.com> (https://kramergatos.com)",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx ts-node src/index.ts",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.4"
+  },
+  "dependencies": {
+    "tsc": "^2.0.4"
+  }
+}
